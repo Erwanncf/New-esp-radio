@@ -1,0 +1,52 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+    <head>
+        <title>Sensors display</title>
+		 <link rel="stylesheet" href="css/style.css">
+		
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="js/index.js"></script>
+		
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<audio id="xyz" src="Short-ringtone-for-notification.mp3" preload="auto"></audio>
+   </head>
+    <body>    
+        <form>
+			<body onload="getSensors();">
+            <h1>Esp radio sensors display</h1>
+			<p><strong>Verssion 1.1</strong> </p>
+			<p>Éditeur: <em>Erwann Caroff</em></p>
+			<p>Lieux de mesure: Lb 120b</p>
+			<p><label>Date de publication: <body onload="displayMyVar('target');"> <span id="demo"/></label><p>
+			<p><label>Actualisation dans: <body onload="displayMyVar('target');"> <span id="demo1"/>S</label><p>
+			<p>(Alerte sonore quand nouvelles données)<p>
+			<input type='button' value='Actualiser la page' onclick='getSensors()' />
+
+            <p>----------------------------------------------------------------	</p>
+			<h2>Données captées</h2>
+            <li><label>Température: <body onload="displayMyVar('target');"> <span id="target1"/></label> °C </li> 
+            <li><label>Humidité: <body onload="displayMyVar('target');"> <span id="target2"/></label> % </li> 
+            <li><label>Pression atmosphérique: <body onload="displayMyVar('target');"> <span id="target3"/></label> hPa</li> 
+            <li><label>Altitude: <body onload="displayMyVar('target');"> <span id="target4"/></label> m </li> 
+            <li><label>Luminosité: <body onload="displayMyVar('target');"> <span id="target5"/></label> Lumen</li> 
+            <li><label>Bruit: <body onload="displayMyVar('target');"> <span id="target6"/></label> % </li> 
+			
+			<h2>États radio</h2>
+			<li><label>Volume: <body onload="displayMyVar('target');"> <span id="target8"/></label> % </li> 
+			<li><label>État: <body onload="displayMyVar('target');"> <span id="target9"/></label> </li> 
+			<li><label>Passerel Internet: <body onload="displayMyVar('target');"> <span id="target10"/></label> </li> 
+			<li><label>Ip page web: <body onload="displayMyVar('target');"> <span id="target11"/></label> </li> 
+			
+			<h2>Infos Radio en cours</h2>
+			<li><label>Station: <body onload="displayMyVar('target');"> <span id="target12"/></label> </li> 
+			<li><label>Titre: <body onload="displayMyVar('target');"> <span id="target13"/></label> </li> 
+			
+			<h2>Cafétéria (prochaine release)</h2>
+			<li><label>Café en cours de préparation:(oui/non) </label> </li> 
+			<li><label>Thé en cours de préparation:(oui/non) </label> </li> 
+			<li><label>La salle est occupée: (oui/non)</li> 
+			
+        </form>
+		<body>
+		<p><img src="http://c.orange.fr/logo-orange.png" alt="Logo Orange" /></p>
+	</body>
+</html>
