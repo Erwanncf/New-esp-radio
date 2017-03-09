@@ -14,7 +14,6 @@ var Ip = 'nc';
 
 var Station = 'nc';
 var Song = 'nc';
-alert("teste")
 var dateData;
 var dateDataMemory ;
 
